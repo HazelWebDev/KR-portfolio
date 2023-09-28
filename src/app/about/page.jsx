@@ -39,20 +39,20 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Kristen Roggero. I live in Austin, where inspiration can be found everywhere.',
+    'I’m Kristen Roggero. I live in Austin, TX, where inspiration can be found everywhere.',
 }
 
 export default function About() {
   return (
     <Container className="mt-16 sm:mt-32">
-      <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
+      <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12 p-6 shadow-2xl rounded-lg">
         <div className="lg:pl-20">
           <div className="max-w-xs px-2.5 lg:max-w-none">
             <Image
               src={portraitImage}
               alt=""
               sizes="(min-width: 1024px) 32rem, 20rem"
-              className="aspect-square rotate-3 rounded-2xl bg-green-100 object-cover dark:bg-green-100"
+              className="aspect-square rotate-3 rounded-2xl bg-green-100 object-cover dark:bg-cyan-100 shadow-xl shadow-rose-300"
             />
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function About() {
           <h1 className="text-4xl font-bold tracking-tight text-primary text-zinc-800 dark:text-green-400 sm:text-5xl">
           I’m Kristen Roggero. I live in Austin, where inspiration can be found everywhere.
           </h1>
-          <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+          <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-100">
             <p>
               As someone who was born in the nic of time right before the internet came to be,
               I pretty much grew up with computers. It was awesome! At least, except for one part of it: the art. 

@@ -26,7 +26,7 @@ function Appearance({ title, description, event, cta, href }) {
 export const metadata = {
   title: 'Resume',
   description:
-    'I’ve spoken at events all around the world and been interviewed for many podcasts.',
+    'A web developer who loves the artistry that goes into creating websites that leave a lasting impression.',
 }
 
 export default function Speaking() {
@@ -40,19 +40,19 @@ export default function Speaking() {
         {/* Left column */}
         <div className="grid grid-cols-1 gap-4 lg:col-span-2">
           <section aria-labelledby="section-1-title">
-            <div className="overflow-hidden rounded-lg bg-white shadow-2xl">
-              <div className="p-6 text-primary">
+            <div className="overflow-hidden rounded-lg">
+              <div className="p-6">
                 <h2 className="text-xl tracking-tight text-secondary text-zinc-800 dark:text-green-400 sm:text-5xl">
                 I’m Kristen Roggero
                 </h2>
-                <div className="title">
-                <h2 className='text-lg tracking-tight text-zinc-800 dark:text-green-400 sm:text-xl'>
+                <div>
+                <h2 className='text-lg tracking-tight text-zinc-800 italic dark:text-cyan-400 sm:text-xl'>
                   A Web Developer</h2>
                 </div>
                 <div className="p-3">
-                  <h3 className='text-md tracking-tight text-zinc-800 dark:text-green-400 sm:text-lg'>
+                  <h3 className='text-lg tracking-tight dark:underline decoration-green-400 text-zinc-800 dark:text-cyan-400 sm:text-xl'>
                     My Goal</h3>
-                  <p className='p-3 tracking-tight'>
+                  <p className='p-3 tracking-tight dark:text-zinc-100'>
                     To secure a challenging position in a reputable organization to
                     expand my learning knowledge and skill, as well incorporate art and design
                     into the evergrowing techical world. My main goal is to create remarkable and stunning 
@@ -60,12 +60,12 @@ export default function Speaking() {
                   </p>
                 </div>
             <div className="p-3">
-              <h2 className='text-lg tracking-tight underline decoration-amber-200 text-zinc-800 dark:text-green-400 sm:text-xl'>
+              <h2 className='text-lg tracking-tight dark:underline decoration-green-400 text-zinc-800 dark:text-cyan-400 sm:text-xl'>
                 Education</h2>
-              <h4 className='text-md tracking-tight italic text-zinc-800 dark:text-green-400 sm:text-lg'>
+              <h4 className='pt-3 text-md tracking-tight italic text-zinc-800 dark:text-cyan-500 sm:text-md'>
                 California State University, East Bay</h4>
-                <h6 className=' text-zinc-400'>September 2017 - May 2021</h6>
-              <ul className='list-disc p-3 tracking-tight'>
+                <h6 className='text-sm  text-zinc-800 dark:text-zinc-300'>September 2017 - May 2021</h6>
+              <ul className='list-disc p-3 tracking-tight dark:text-zinc-100'>
                 <li className='list-inside'>Aquired a Bachelor's Degree from four years of rigorous study.</li>
                 <li className='list-inside'>Two time recipient of Dean's List from a stellar academic grade point average.</li>
               </ul>
@@ -73,10 +73,10 @@ export default function Speaking() {
 
 
             <div className="p-3">
-              <h2 className='text-lg tracking-tight underline decoration-amber-200 text-zinc-800 dark:text-green-400 sm:text-xl'>Experience</h2>
-              <h3 className='text-md tracking-tight italic text-zinc-800 dark:text-green-400 sm:text-lg'>Infosys - Front End Developer</h3>
-                <h6 className=' text-zinc-400'>August 2022 to Present</h6>
-                  <ul className='list-disc p-3 tracking-tight'>
+              <h2 className='text-xl tracking-tight dark:underline decoration-green-400 text-zinc-800 dark:text-cyan-400 sm:text-xl'>Experience</h2>
+              <h3 className='text-md tracking-tight italic text-zinc-800 dark:text-cyan-500 sm:text-md pt-3'>Infosys - Front End Developer</h3>
+                <h6 className='text-sm text-zinc-800 dark:text-zinc-300'>August 2022 to Present</h6>
+                  <ul className='list-disc p-3 tracking-tight dark:text-zinc-100'>
                     <li className='list-inside'>
                       Collaborate with peers and mentors to create lively, engaging and stylish user interfaces with 
                       HTML, CSS, JavaScript and React.
@@ -90,12 +90,12 @@ export default function Speaking() {
                   </ul>
 
 
-                  <div className='p-3'>
-                  <h3 className='text-lg tracking-tight italic text-zinc-800 dark:text-green-400 sm:text-xl'>
+                  <div className='pt-2'>
+                  <h3 className='text-md tracking-tight italic text-zinc-800 dark:text-cyan-500 sm:text-md'>
                     Revature - Full Stack Developer</h3>
-                  <h6 className=' text-zinc-400'>
+                  <h6 className='text-sm text-zinc-800 dark:text-zinc-300'>
                     March 2022 to August 2022</h6>
-                    <ul className='list-disc p-3 tracking-tight'>
+                    <ul className='list-disc p-3 tracking-tight dark:text-zinc-100'>
                       <li className='list-inside'>
                         Actively engaged in web creative design and development by following the software development life cycle.</li>
                       <li className='list-inside'>Utilized Java to create a full stack shopping application similar to Amazon, with checkout functions, add to cart, and more.</li>
@@ -111,11 +111,20 @@ export default function Speaking() {
         {/* Right column */}
         <div className="grid grid-cols-1 gap-4">
           <section aria-labelledby="section-2-title">
-            <div className="overflow-hidden rounded-lg bg-white shadow-2xl">
-              <h2 className='p-6 text-lg tracking-tight text-zinc-800 dark:text-green-400 sm:text-xl'>
+            <div className="overflow-hidden rounded-lg p-6">
+            <div className='pt-2'>
+              <h2 className='text-lg tracking-tight text-zinc-800 dark:underline decoration-cyan-400 dark:text-green-400 sm:text-xl'>Projects</h2>
+              <ul className='list-disc p-3 tracking-tight dark:text-zinc-100'>
+                  <li className='list-inside'><a className='underline decoration-cyan-400' href='https://kristenroggero.com/'>Click here</a> for a link to my first ever portfolio and see the ways I have grown since then! This site is created with React
+                  and some fancy animations.</li>
+                  <li className='list-inside'><a className='underline decoration-cyan-400' href='https://kristenroggero.com/'>This link</a> leads to the GitHub repository of my blog project with Next.JS and GraphCMS.</li>
+              </ul>
+            </div>
+            <div className='pt-2'>
+              <h2 className='text-lg tracking-tight text-zinc-800 dark:underline decoration-cyan-400 dark:text-green-400 sm:text-xl'>
                 Technical Skills </h2>
-                <div className="p-3">
-                  <ul className='list-disc p-3 tracking-tight'>
+                
+                  <ul className='list-disc p-3 tracking-tight dark:text-zinc-100'>
                     <li className='list-inside'>HTML5</li>
                     <li className='list-inside'>CSS3</li>
                     <li className='list-inside'>JavaScript(ES6+)</li>
@@ -125,24 +134,25 @@ export default function Speaking() {
                     <li className='list-inside'>Tailwind CSS</li>
                   </ul>
                 </div>
-                <div className="p-3">
-                <h2 className='text-lg tracking-tight text-zinc-800 dark:text-green-400 sm:text-xl'>Soft Skills</h2>
-                  <ul className='list-disc p-3 tracking-tight'>
+                <div className='pt-2'>
+                <h2 className='text-lg tracking-tight text-zinc-800 dark:underline decoration-cyan-400 dark:text-green-400 sm:text-xl'>Soft Skills</h2>
+                  <ul className='list-disc p-3 tracking-tight dark:text-zinc-100'>
                     <li className='list-inside'>Reading and Writing</li>
                     <li className='list-inside'>Time Management</li>
                     <li className='list-inside'>Problem Solving</li>
                     <li className='list-inside'>Communication and Collaboration</li>
                   </ul>
                 </div>
-            <div className="p-3">
-              <h2 className='text-lg tracking-tight text-zinc-800 dark:text-green-400 sm:text-xl'>Hobbies</h2>
-              <ul className='list-disc p-3 tracking-tight'>
-                <li className='list-inside'>Playing chess</li>
+            <div className='pt-2'>
+              <h2 className='text-lg tracking-tight text-zinc-800 dark:underline decoration-cyan-400 dark:text-green-400 sm:text-xl'>Hobbies</h2>
+              <ul className='list-disc p-3 tracking-tight dark:text-zinc-100'>
                 <li className='list-inside'>Crocheting</li>
+                <li className='list-inside'>Playing chess</li>
                 <li className='list-inside'>Coding</li>
-                <li className='list-inside'>Swimming</li>
+                <li className='list-inside'>Exploring</li>
               </ul>
             </div>
+           
             </div>
           </section>
         </div>

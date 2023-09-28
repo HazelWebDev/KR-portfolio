@@ -115,7 +115,7 @@ function Newsletter() {
         <MailIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Stay up to date</span>
       </h2>
-      <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+      <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-100">
         Get notified when I publish something new, and unsubscribe at any time.
       </p>
       <div className="mt-6 flex">
@@ -243,7 +243,7 @@ function Photos() {
               src={image}
               alt=""
               sizes="(min-width: 640px) 18rem, 11rem"
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover shadow-2xl shadow-indigo-500/50"
             />
           </div>
         ))}
@@ -260,9 +260,9 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            A web developer, explorer, and creator.
           </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-100">
             I’m Spencer, a software designer and entrepreneur based in New York
             City. I’m the founder and CEO of Planetaria, where we develop
             technologies that empower regular people to explore space on their

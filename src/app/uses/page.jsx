@@ -25,86 +25,73 @@ function Tool({ title, href, children }) {
 
 export const metadata = {
   title: 'Uses',
-  description: 'Software I use, gadgets I love, and other things I recommend.',
+  description: 'The tools, software, and utilities that make life easier.',
 }
 
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Software I use, gadgets I love, and other things I recommend."
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      title="Tools, resources, and features I often use."
+      intro="In the big world of the internet, there's a plethora of tools that can assist with productivity! Here's a list of some of the resources I use, 
+      from things to help with focus to creative websites."
     >
       <div className="space-y-20">
-        <ToolsSection title="Workstation">
-          <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-            I was using an Intel-based 16” MacBook Pro prior to this and the
-            difference is night and day. I’ve never heard the fans turn on a
-            single time, even under the incredibly heavy loads I put it through
-            with our various launch simulations.
+        <ToolsSection  className='text-lg tracking-tight text-zinc-800 dark:underline decoration-cyan-400 dark:text-green-400 sm:text-xl' title="Workstation">
+          <Tool title="Slate MR PC">
+            The rumors are true: I've got a gaming desktop pc, and it's a legendary piece of equipment! Although I don't 
+            game very much lately, it is great for all things internet. 
           </Tool>
-          <Tool title="Apple Pro Display XDR (Standard Glass)">
-            The only display on the market if you want something HiDPI and
-            bigger than 27”. When you’re working at planetary scale, every pixel
-            you can get counts.
+          <Tool title="Dual Monitors">
+            Lately there's an argument about having two seperate monitors, or one ginormous one. Personally,
+            I enjoy the dual monitor setup since it is easier to move tabs around and keep them organized rather than 
+            overlapping in the center. Plus, movies and shows are a challenge when it comes to full screen on the giant
+            monitors. The choice is yours!
           </Tool>
-          <Tool title="IBM Model M SSK Industrial Keyboard">
-            They don’t make keyboards the way they used to. I buy these any time
-            I see them go up for sale and keep them in storage in case I need
-            parts or need to retire my main.
+          <Tool title="50% Seedna Keyboard">
+            Found this <em>little guy</em> on amazon for a fair price. Even though 50% keyboards are pretty small,
+            it is perfect for my hands and the way I trained myself to type. Am I just a fan of the RBG color styles? Maybe...
           </Tool>
-          <Tool title="Apple Magic Trackpad">
-            Something about all the gestures makes me feel like a wizard with
-            special powers. I really like feeling like a wizard with special
-            powers.
-          </Tool>
-          <Tool title="Herman Miller Aeron Chair">
-            If I’m going to slouch in the worst ergonomic position imaginable
-            all day, I might as well do it in an expensive chair.
+          <Tool title="Logitech Speakers">
+            Before I got these amazingly clear speakers, I was stuck using those inexpensive, I'm-just-going-to-buy-them-for-convience speakers
+            that you buy in a pinch. It made the sound of these wonderful speakers that much sweeter. No fuzziness or gain, only crystal clear melodies. 
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">
-          <Tool title="Sublime Text 4">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+          <Tool title="Visual Studio Code">
+            There are lots of choices when it comes to your IDE, but VS Code is my favorite for all 
+            the extra functionality and shortcuts it has. Not to mention, I adore all the extra themes they have to 
+            color code your code. 
           </Tool>
-          <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+          <Tool title="Nord VPN">
+            Great for protecting yourself online. 
           </Tool>
-          <Tool title="TablePlus">
-            Great software for working with databases. Has saved me from
-            building about a thousand admin interfaces for my various projects
-            over the years.
+          <Tool title="Tailwind CSS">
+            I bought the TailwindCSS package to increase my productivity and inspire me to create stunning websites by 
+            fusing different components, colors, and styles together. It's one big experiment with clear guidelines, and very
+            fun to play around with.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Design">
-          <Tool title="Figma">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+          <Tool title="Canva">
+            Canva is home to endless designs, no matter what you might need. From wallpapers to social
+            media videos, its a go-to for digital creativity. 
           </Tool>
         </ToolsSection>
         <ToolsSection title="Productivity">
-          <Tool title="Alfred">
-            It’s not the newest kid on the block but it’s still the fastest. The
-            Sublime Text of the application launcher world.
+          <Tool title="Music">
+            Music has a way of activating the creative and driven parts of my brain, helping to get
+            the work rhythm movin'.
           </Tool>
-          <Tool title="Reflect">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
+          <Tool title="Discord">
+            Joining different discord servers where developers like to gather and discuss all things tech, it is both a good
+            way to meet likeminded people and get advice or critiques on your resume or projects. 
           </Tool>
-          <Tool title="SavvyCal">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
+          <Tool title="The Internet">
+            Is this an obvious answer? Yes. But... there is an endless stream of information and power that the internet brings. You 
+            can use W3Schools, JavaScript.info, The Odin Project, YouTube, and so many other educational and informative sites! The 
+            internet is your osyter. 
           </Tool>
-          <Tool title="Focus">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
-          </Tool>
+          
         </ToolsSection>
       </div>
     </SimpleLayout>
